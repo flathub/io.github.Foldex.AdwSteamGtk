@@ -1,10 +1,10 @@
 {
-    "app-id" : "io.github.Foldex.AdwSteamGtk",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "42",
-    "sdk" : "org.gnome.Sdk",
-    "command" : "adwaita-steam-gtk",
-    "finish-args" : [
+    "app-id": "io.github.Foldex.AdwSteamGtk",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "42",
+    "sdk": "org.gnome.Sdk",
+    "command": "adwaita-steam-gtk",
+    "finish-args": [
         "--share=network",
         "--share=ipc",
         "--socket=fallback-x11",
@@ -13,7 +13,7 @@
         "--filesystem=~/.var/app/com.valvesoftware.Steam/.steam/steam",
         "--filesystem=~/.steam/steam"
     ],
-    "cleanup" : [
+    "cleanup": [
         "/include",
         "/lib/pkgconfig",
         "/man",
@@ -24,7 +24,7 @@
         "*.la",
         "*.a"
     ],
-    "modules" : [
+    "modules": [
         {
             "name": "blueprint-compiler",
             "buildsystem": "meson",
@@ -40,7 +40,9 @@
                     }
                 }
             ],
-            "cleanup": ["*"]
+            "cleanup": [
+                "*"
+            ]
         },
         {
             "name": "gnu-patch",
@@ -88,15 +90,15 @@
             ]
         },
         {
-            "name" : "adwaita-steam-gtk",
-            "builddir" : true,
-            "buildsystem" : "meson",
-            "sources" : [
+            "name": "adwaita-steam-gtk",
+            "builddir": true,
+            "buildsystem": "meson",
+            "sources": [
                 {
-                    "type" : "archive",
-                    "dest-filename" : "AdwSteamGtk.tar.gz",
-                    "url" : "https://api.github.com/repos/Foldex/AdwSteamGtk/tarball/v0.1.1",
-                    "sha256" : "e6d8c3c790c7c00d8d60e48bf248b912042b752402b3e2b81768435dcd200c3f",
+                    "type": "archive",
+                    "dest-filename": "AdwSteamGtk.tar.gz",
+                    "url": "https://api.github.com/repos/Foldex/AdwSteamGtk/tarball/v0.1.2",
+                    "sha256": "79c9e86b5ce08dcaca70cdb21f1f461f930d8b6bdadb154e79fb395a598fc989",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/Foldex/AdwSteamGtk/releases/latest",
