@@ -11,7 +11,8 @@
         "--device=dri",
         "--socket=wayland",
         "--filesystem=~/.var/app/com.valvesoftware.Steam/.steam/steam",
-        "--filesystem=~/.steam/steam"
+        "--filesystem=~/.steam/steam",
+        "--filesystem=~/.local/share/fonts:create"
     ],
     "cleanup": [
         "/include",
@@ -42,6 +43,26 @@
             ],
             "cleanup": [
                 "*"
+            ]
+        },
+        {
+            "name": "libportal",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Ddocs=false",
+                "-Dbackends=gtk4"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/flatpak/libportal/archive/refs/tags/0.6.tar.gz",
+                    "sha256": "8ad326c4f53b7433645dc86d994fef0292bee8adda0fe67db9288ace19250a9c",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 230124,
+                        "url-template": "https://github.com/flatpak/libportal/archive/refs/tags/$version.tar.gz"
+                    }
+                }
             ]
         },
         {
@@ -97,8 +118,8 @@
                 {
                     "type": "archive",
                     "dest-filename": "AdwSteamGtk.tar.gz",
-                    "url": "https://api.github.com/repos/Foldex/AdwSteamGtk/tarball/v0.4.1",
-                    "sha256": "29849e2adc6d413f9995deda4979343d0e6e8d3b21c8adc2161162416fe9ba0f",
+                    "url": "https://api.github.com/repos/Foldex/AdwSteamGtk/tarball/v0.5.0",
+                    "sha256": "6894a8acf697319fdf4473a9d6ad296673d693548f0ca9b33dbe944926a0a50f",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/Foldex/AdwSteamGtk/releases/latest",
