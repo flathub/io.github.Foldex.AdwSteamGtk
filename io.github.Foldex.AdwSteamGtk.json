@@ -11,7 +11,8 @@
         "--device=dri",
         "--socket=wayland",
         "--filesystem=~/.var/app/com.valvesoftware.Steam/.steam/steam",
-        "--filesystem=~/.steam/steam"
+        "--filesystem=~/.steam/steam",
+        "--filesystem=~/.local/share/fonts:create"
     ],
     "cleanup": [
         "/include",
@@ -42,6 +43,26 @@
             ],
             "cleanup": [
                 "*"
+            ]
+        },
+        {
+            "name": "libportal",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Ddocs=false",
+                "-Dbackends=gtk4"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/flatpak/libportal/archive/refs/tags/0.6.tar.gz",
+                    "sha256": "8ad326c4f53b7433645dc86d994fef0292bee8adda0fe67db9288ace19250a9c",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 230124,
+                        "url-template": "https://github.com/flatpak/libportal/archive/refs/tags/$version.tar.gz"
+                    }
+                }
             ]
         },
         {
