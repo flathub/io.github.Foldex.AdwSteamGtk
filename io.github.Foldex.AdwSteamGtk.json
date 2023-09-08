@@ -54,8 +54,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/flatpak/libportal/archive/refs/tags/0.6.tar.gz",
-                    "sha256": "8ad326c4f53b7433645dc86d994fef0292bee8adda0fe67db9288ace19250a9c",
+                    "url": "https://github.com/flatpak/libportal/archive/refs/tags/0.7.tar.gz",
+                    "sha256": "7576fa9df2671cc2fb91e8eba2c5dd2350bd2b650941163dd0a038e0af61440d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 230124,
