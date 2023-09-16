@@ -49,7 +49,7 @@
             "buildsystem": "meson",
             "config-opts": [
                 "-Ddocs=false",
-                "-Dbackends=gtk4"
+                "-Dbackend-gtk4=enabled"
             ],
             "sources": [
                 {
