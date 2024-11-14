@@ -101,8 +101,8 @@
                 {
                     "type": "archive",
                     "dest-filename": "AdwSteamGtk.tar.gz",
-                    "url": "https://api.github.com/repos/Foldex/AdwSteamGtk/tarball/v0.7.0",
-                    "sha256": "0fbf472719f3e99a1e264c8ae8b7aae62259cdc04f241c1a464a0e095c916fa5",
+                    "url": "https://api.github.com/repos/Foldex/AdwSteamGtk/tarball/v0.7.1",
+                    "sha256": "ca0d998e6a3afe0712cd3c27e3f0434596f61a73ad758f65d0857f4ec60766fa",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/Foldex/AdwSteamGtk/releases/latest",
