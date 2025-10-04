@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.16.0/blueprint-compiler-v0.16.0.tar.bz2",
-                    "sha256": "77a5d593f433c8ca70a05390532cd186c60944cfa6bcd39296c1c2597a7a50fc",
+                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.18.0/blueprint-compiler-v0.18.0.tar.bz2",
+                    "sha256": "c98cc7257177e0e29a604689679a2512922a1f742ee5f28f188b2a13fe17e5e7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 279929,
@@ -73,8 +73,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/05/e7/df2285f3d08fee213f2d041540fa4fc9ca6c2d44cf36d3a035bf2a8d2bcc/pyparsing-3.2.3-py3-none-any.whl",
-                    "sha256": "a749938e02d6fd0b59b356ca504a24982314bb090c383e3cf201c95ef7e2bfcf",
+                    "url": "https://files.pythonhosted.org/packages/10/5e/1aa9a93198c6b64513c9d7752de7422c06402de6600a8767da1524f9570b/pyparsing-3.2.5-py3-none-any.whl",
+                    "sha256": "e38a4f02064cf41fe6593d328d0512495ad1f3d8a91c4f73fc401b3079a59a5e",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "pyparsing",
