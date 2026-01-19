@@ -1,7 +1,7 @@
 {
     "app-id": "io.github.Foldex.AdwSteamGtk",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "48",
+    "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
     "command": "adwaita-steam-gtk",
     "finish-args": [
@@ -25,25 +25,6 @@
         "*.a"
     ],
     "modules": [
-        {
-            "name": "blueprint-compiler",
-            "buildsystem": "meson",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.18.0/blueprint-compiler-v0.18.0.tar.bz2",
-                    "sha256": "c98cc7257177e0e29a604689679a2512922a1f742ee5f28f188b2a13fe17e5e7",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 279929,
-                        "url-template": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v$version/blueprint-compiler-v$version.tar.bz2"
-                    }
-                }
-            ],
-            "cleanup": [
-                "*"
-            ]
-        },
         {
             "name": "libportal",
             "buildsystem": "meson",
