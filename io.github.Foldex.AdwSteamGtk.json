@@ -35,8 +35,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/flatpak/libportal/archive/refs/tags/0.9.1.tar.gz",
-                    "sha256": "ea422b789ae487e04194d387bea031fd7485bf88a18aef8c767f7d1c29496a4e",
+                    "url": "https://github.com/flatpak/libportal/archive/refs/tags/0.11.0.tar.gz",
+                    "sha256": "71482afa68b3373268e7df7feaf96ce99eb1a6701f60ff43a0d1b2594605eae8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 230124,
@@ -64,8 +64,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/b7/b9/c538f279a4e237a006a2c98387d081e9eb060d203d8ed34467cc0f0b9b53/packaging-26.0-py3-none-any.whl",
-                    "sha256": "b36f1fef9334a5588b4166f8bcd26a14e521f2b55e6b9de3aaa80d3ff7a37529",
+                    "url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+                    "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "packaging",
