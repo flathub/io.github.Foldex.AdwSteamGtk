@@ -35,8 +35,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/flatpak/libportal/archive/refs/tags/0.9.1.tar.gz",
-                    "sha256": "ea422b789ae487e04194d387bea031fd7485bf88a18aef8c767f7d1c29496a4e",
+                    "url": "https://github.com/flatpak/libportal/archive/refs/tags/0.11.0.tar.gz",
+                    "sha256": "71482afa68b3373268e7df7feaf96ce99eb1a6701f60ff43a0d1b2594605eae8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 230124,
@@ -54,8 +54,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/10/bd/c038d7cc38edc1aa5bf91ab8068b63d4308c66c4c8bb3cbba7dfbc049f9c/pyparsing-3.3.2-py3-none-any.whl",
-                    "sha256": "850ba148bd908d7e2411587e247a1e4f0327839c40e2e5e6d05a007ecc69911d",
+                    "url": "https://files.pythonhosted.org/packages/38/bb/d215ee7c73b61497b28a5503f9f53523f294fcc936762b7caf90e0c1c2b5/pyparsing-3.3.3-py3-none-any.whl",
+                    "sha256": "ece8c00a69cf01b45d0b1dedabb469c90d8caf996d4fda40f147627a122849a4",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "pyparsing",
@@ -64,8 +64,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/b7/b9/c538f279a4e237a006a2c98387d081e9eb060d203d8ed34467cc0f0b9b53/packaging-26.0-py3-none-any.whl",
-                    "sha256": "b36f1fef9334a5588b4166f8bcd26a14e521f2b55e6b9de3aaa80d3ff7a37529",
+                    "url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+                    "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "packaging",
