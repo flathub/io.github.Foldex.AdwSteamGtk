@@ -1,7 +1,7 @@
 {
     "app-id": "io.github.Foldex.AdwSteamGtk",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "51",
     "sdk": "org.gnome.Sdk",
     "command": "adwaita-steam-gtk",
     "finish-args": [
@@ -82,8 +82,8 @@
                 {
                     "type": "archive",
                     "dest-filename": "AdwSteamGtk.tar.gz",
-                    "url": "https://api.github.com/repos/Foldex/AdwSteamGtk/tarball/v0.8.0",
-                    "sha256": "3bae27dfc2667a56a9edec7c29241a82ac677d0258963824f22cb70e61ec143d",
+                    "url": "https://api.github.com/repos/Foldex/AdwSteamGtk/tarball/v0.9.0",
+                    "sha256": "229496fe5db5b24da65adcfab4dfe4ca3687185cc7f066d34bfe0c04938e649c",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/Foldex/AdwSteamGtk/releases/latest",
